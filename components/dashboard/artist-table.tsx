@@ -13,7 +13,7 @@ interface ArtistTableProps {
   artists: Artist[];
   onViewArtist?: (artist: Artist) => void;
   onEditArtist?: (artist: Artist) => void;
-  onDeleteArtist?: (artistId: string) => void;
+  onDelete?: (artistId: string) => void;
   onApprove?: (artistId: string) => void;
 }
 
@@ -38,7 +38,7 @@ export default function ArtistTable({
   artists,
   onViewArtist,
   onEditArtist,
-  onDeleteArtist,
+  onDelete,
 }: ArtistTableProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterCategory, setFilterCategory] = useState('all');
@@ -262,7 +262,7 @@ export default function ArtistTable({
                         <Button
                           variant="ghost"
                           size="sm"
-                          onClick={() => onDeleteArtist?.(artist.id)}
+                          onClick={() => onDelete?.(artist.id)}
                           className="text-red-600 hover:text-red-700"
                         >
                           <Trash2 className="h-4 w-4" />
@@ -331,7 +331,7 @@ export default function ArtistTable({
                     <Button
                       variant="ghost"
                       size="sm"
-                      onClick={() => onDeleteArtist?.(artist.id)}
+                      onClick={() => onDelete?.(artist.id)}
                       className="text-red-600 hover:text-red-700"
                     >
                       <Trash2 className="h-4 w-4" />
