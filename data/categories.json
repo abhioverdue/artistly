@@ -1,0 +1,38 @@
+[
+  {
+    "id": "singers",
+    "name": "Singers",
+    "icon": "🎤",
+    "description": "Professional vocalists for all genres and events"
+  },
+  {
+    "id": "dancers",
+    "name": "Dancers",
+    "icon": "💃",
+    "description": "Choreographed performances for every occasion"
+  },
+  {
+    "id": "speakers",
+    "name": "Speakers",
+    "icon": "🎯",
+    "description": "Motivational and keynote speakers"
+  },
+  {
+    "id": "djs",
+    "name": "DJs",
+    "icon": "🎧",
+    "description": "Professional DJs for parties and events"
+  },
+  {
+    "id": "musicians",
+    "name": "Musicians",
+    "icon": "🎸",
+    "description": "Instrumentalists and bands"
+  },
+  {
+    "id": "comedians",
+    "name": "Comedians",
+    "icon": "😄",
+    "description": "Stand-up comedians and entertainers"
+  }
+]

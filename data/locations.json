@@ -1,0 +1,50 @@
+[
+  {
+    "id": "mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  {
+    "id": "delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India"
+  },
+  {
+    "id": "bangalore",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  },
+  {
+    "id": "hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India"
+  },
+  {
+    "id": "chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  },
+  {
+    "id": "kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India"
+  },
+  {
+    "id": "pune",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  {
+    "id": "ahmedabad",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India"
+  }
+]
